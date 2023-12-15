@@ -1,14 +1,11 @@
-package HomeTask.Day4;
+package HomeTask.Day04;
 
 import com.loop.test.utilities.DocuportConstants;
 import com.loop.test.utilities.WebDriverFactory;
-import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.By;
-import org.openqa.selenium.ScreenOrientation;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
