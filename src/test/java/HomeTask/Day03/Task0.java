@@ -1,4 +1,4 @@
-package HomeTask.Day3;
+package HomeTask.Day03;
 
 import com.loop.test.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
