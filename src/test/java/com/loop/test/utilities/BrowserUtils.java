@@ -30,4 +30,18 @@ public class BrowserUtils {
             assertTrue(driver.getTitle().toLowerCase().contains(expectedTitle));
         }
 
+        public static void switchToWindow(WebDriver driver,String targetTitle){
+            {
+                String origin = driver.getWindowHandle();
+                for (String handle : driver.getWindowHandles()){
+                    driver.switchTo().window(handle);
+                    if(driver.getTitle().contains(targetTitle)){
+                        return;
+                    }
+                }
+                driver.switchTo().window(origin);
+            }
+
+        }
+
     }
