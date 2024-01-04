@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4700e8f0-f2b1-414a-8f2b-78b35703de55" name="Changes" comment="My new commit day11" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="day11_waits_pom" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gular1987&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f066cf02-67a5-4f96-b8be-3680b8d56a64" />
+        <option name="url" value="https://github.com/gular1987/AutomationProjectB2.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2Y5YorM10hFGjkHVfHymZ0uKJrD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.T000_xpath_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T0_test_config.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_locators_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T3_getAttribute_css.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.T1_google_search.docuport_search.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.T1_google_search.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.T1_google_search.google_search.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.MentorPractice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MentorPractice.invalidUsernameCorrectPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T000_singleton_practice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T00_login_docuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T00_login_docuport.test_login_docuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.bottom.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.middle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.right.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.confirmationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.informationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_drag_drop_pom.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_upload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_upload.upload_file.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_webTables.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_webTables.test_webTables.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_window.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_window.test_window_handle.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.T2_actions_howerover.google_action_hover.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_explicit_wait.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_iframe.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_java_faker.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_windows.windowHandleTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_dynamic_loading1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_dynamic_loading1.dynamic_loading_1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_dynamic_loading1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_JSExecutor_scroll.etsy_scroll_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_dropdown_options.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T5_multi_dropdown.multiSelect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.drag_And_drop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.dropDownSelect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.dropdownSelectOption2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login.login_page.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.drag_And_drop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.multipleWindow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.searchButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.NowDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.dragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.try_again_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.getDocuport (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.getDocuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develope&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/agil/Desktop/IdeaProjects/untitled/AutomationProjectB2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DocuportConstants" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.Task_RegistrationForm.RegistrationForm (1)">
+    <configuration name="Task0" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeTask.Day04.Task0" />
+      <module name="B2AutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeTask.Day04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2.multipleWindow" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2AutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeTask.Day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeTask.Day07" />
+      <option name="MAIN_CLASS_NAME" value="HomeTask.Day07.Task2" />
+      <option name="METHOD_NAME" value="multipleWindow" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3.getDocuport" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2AutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeTask.Day05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeTask.Day5" />
+      <option name="MAIN_CLASS_NAME" value="HomeTask.Day05.Task3" />
+      <option name="METHOD_NAME" value="getDocuport" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_RegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2AutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeTask.Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeTask.Day9" />
+      <option name="MAIN_CLASS_NAME" value="HomeTask.Day9.Task_RegistrationForm" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_RegistrationForm.RegistrationForm (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2AutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeTask.Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeTask.Day9" />
+      <option name="MAIN_CLASS_NAME" value="HomeTask.Day9.Task_RegistrationForm" />
+      <option name="METHOD_NAME" value="RegistrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_RegistrationForm.RegistrationForm" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2AutomationProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeTask.Day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeTask.Day9" />
+      <option name="MAIN_CLASS_NAME" value="HomeTask.Day9.Task_RegistrationForm" />
+      <option name="METHOD_NAME" value="RegistrationForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.Task_RegistrationForm.RegistrationForm" />
+        <item itemvalue="TestNG.Task_RegistrationForm.RegistrationForm (1)" />
+        <item itemvalue="TestNG.Task_RegistrationForm" />
+        <item itemvalue="TestNG.Task3.getDocuport" />
+        <item itemvalue="TestNG.Task2.multipleWindow" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-openjdk-21.0.1-3183f394aec4-abbd5a8d" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4700e8f0-f2b1-414a-8f2b-78b35703de55" name="Changes" comment="" />
+      <created>1699817089910</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699817089910</updated>
+      <workItem from="1700571128609" duration="117000" />
+      <workItem from="1700572273333" duration="22000" />
+      <workItem from="1700572751049" duration="11000" />
+      <workItem from="1700572777318" duration="54000" />
+      <workItem from="1700666849089" duration="4089000" />
+      <workItem from="1700798364083" duration="7000" />
+      <workItem from="1700865542803" duration="12480000" />
+      <workItem from="1700959797060" duration="597000" />
+      <workItem from="1700960724225" duration="7276000" />
+      <workItem from="1700969143964" duration="850000" />
+      <workItem from="1700970287207" duration="3792000" />
+      <workItem from="1700975247031" duration="133000" />
+      <workItem from="1701009185754" duration="12317000" />
+      <workItem from="1701090446385" duration="40000" />
+      <workItem from="1701443945308" duration="6579000" />
+      <workItem from="1701481054541" duration="597000" />
+      <workItem from="1701551079193" duration="4738000" />
+      <workItem from="1701556870174" duration="2299000" />
+      <workItem from="1701559183732" duration="7846000" />
+      <workItem from="1701568022064" duration="173000" />
+      <workItem from="1701568206729" duration="1694000" />
+      <workItem from="1701574812256" duration="6241000" />
+      <workItem from="1701619473566" duration="3749000" />
+      <workItem from="1701626383090" duration="7525000" />
+      <workItem from="1701781255666" duration="862000" />
+      <workItem from="1701953976545" duration="19158000" />
+      <workItem from="1701973449348" duration="676000" />
+      <workItem from="1701974145906" duration="108000" />
+      <workItem from="1701974553317" duration="165000" />
+      <workItem from="1701974722532" duration="55000" />
+      <workItem from="1701974885466" duration="51000" />
+      <workItem from="1701974968403" duration="29000" />
+      <workItem from="1701975085123" duration="36000" />
+      <workItem from="1701975936131" duration="325000" />
+      <workItem from="1701976284004" duration="365000" />
+      <workItem from="1702132495060" duration="1441000" />
+      <workItem from="1702133945086" duration="33000" />
+      <workItem from="1702134194140" duration="576000" />
+      <workItem from="1702179807910" duration="46000" />
+      <workItem from="1702219012585" duration="10877000" />
+      <workItem from="1702530100038" duration="867000" />
+      <workItem from="1702576507345" duration="10921000" />
+      <workItem from="1702610066419" duration="851000" />
+      <workItem from="1702663318295" duration="5076000" />
+      <workItem from="1702676487628" duration="10000" />
+      <workItem from="1702792785066" duration="530000" />
+      <workItem from="1702823653582" duration="1134000" />
+      <workItem from="1702828094173" duration="7411000" />
+      <workItem from="1702953046848" duration="1607000" />
+      <workItem from="1703196233875" duration="1863000" />
+      <workItem from="1703200969875" duration="680000" />
+      <workItem from="1703203310950" duration="2035000" />
+      <workItem from="1703205448739" duration="6076000" />
+      <workItem from="1703439061592" duration="12099000" />
+      <workItem from="1703454385579" duration="183000" />
+      <workItem from="1703652516658" duration="421000" />
+      <workItem from="1703655045461" duration="16000" />
+      <workItem from="1703705570008" duration="17000" />
+      <workItem from="1703707131384" duration="10000" />
+      <workItem from="1703804677685" duration="2628000" />
+      <workItem from="1703807873597" duration="10529000" />
+      <workItem from="1703833201209" duration="4000" />
+      <workItem from="1703917810231" duration="5289000" />
+      <workItem from="1703924459966" duration="110000" />
+      <workItem from="1704001232896" duration="743000" />
+      <workItem from="1704152382170" duration="7999000" />
+      <workItem from="1704221818685" duration="10080000" />
+      <workItem from="1704234156332" duration="192000" />
+      <workItem from="1704234388131" duration="46000" />
+      <workItem from="1704235258105" duration="171000" />
+      <workItem from="1704235639267" duration="46000" />
+      <workItem from="1704259065675" duration="3000" />
+      <workItem from="1704259084093" duration="10000" />
+      <workItem from="1704389063895" duration="190000" />
+      <workItem from="1704405515598" duration="876000" />
+      <workItem from="1704408879257" duration="115000" />
+      <workItem from="1704408997328" duration="179000" />
+      <workItem from="1704409182528" duration="83000" />
+      <workItem from="1704409320505" duration="96000" />
+      <workItem from="1704409500053" duration="1145000" />
+    </task>
+    <task id="LOCAL-00001" summary="My first commit">
+      <created>1700405318165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700405318165</updated>
+    </task>
+    <task id="LOCAL-00002" summary="My new commit">
+      <created>1700413267147</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700413267147</updated>
+    </task>
+    <task id="LOCAL-00003" summary="My new commit">
+      <created>1700413279272</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700413279272</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day 3 my new commit">
+      <created>1700424831834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700424831835</updated>
+    </task>
+    <task id="LOCAL-00005" summary="day 3 my new commit">
+      <created>1700425151634</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700425151634</updated>
+    </task>
+    <task id="LOCAL-00006" summary="My new commit">
+      <option name="closed" value="true" />
+      <created>1701014753573</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701014753573</updated>
+    </task>
+    <task id="LOCAL-00007" summary="My new commit day4">
+      <option name="closed" value="true" />
+      <created>1701029761280</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701029761280</updated>
+    </task>
+    <task id="LOCAL-00008" summary="My new commit day5">
+      <option name="closed" value="true" />
+      <created>1701634210412</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701634210412</updated>
+    </task>
+    <task id="LOCAL-00009" summary="My new commit day6 alerts">
+      <option name="closed" value="true" />
+      <created>1702529992908</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702529992908</updated>
+    </task>
+    <task id="LOCAL-00010" summary="My new commit day6 alerts">
+      <option name="closed" value="true" />
+      <created>1702530252854</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702530252854</updated>
+    </task>
+    <task id="LOCAL-00011" summary="My new commit day6 alerts">
+      <option name="closed" value="true" />
+      <created>1702530674865</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702530674865</updated>
+    </task>
+    <task id="LOCAL-00012" summary="My new commit day7 windows handle">
+      <option name="closed" value="true" />
+      <created>1702610822331</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702610822331</updated>
+    </task>
+    <task id="LOCAL-00013" summary="My new commit day8 window tables">
+      <option name="closed" value="true" />
+      <created>1703201155185</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703201155185</updated>
+    </task>
+    <task id="LOCAL-00014" summary="My new commit day 9">
+      <option name="closed" value="true" />
+      <created>1703454449821</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703454449821</updated>
+    </task>
+    <task id="LOCAL-00015" summary="My new commit">
+      <option name="closed" value="true" />
+      <created>1703806320434</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1703806320434</updated>
+    </task>
+    <task id="LOCAL-00016" summary="My new commit day10">
+      <option name="closed" value="true" />
+      <created>1704001923445</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1704001923445</updated>
+    </task>
+    <task id="LOCAL-00017" summary="My new commit">
+      <option name="closed" value="true" />
+      <created>1704152593488</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1704152593488</updated>
+    </task>
+    <task id="LOCAL-00018" summary="My new commit day11">
+      <option name="closed" value="true" />
+      <created>1704408918567</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704408918567</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My first commit" />
+    <MESSAGE value="day 3 my new commit" />
+    <MESSAGE value="My new commit day4" />
+    <MESSAGE value="My new commit day5" />
+    <MESSAGE value="My new commit day6 alerts" />
+    <MESSAGE value="My new commit day7 windows handle" />
+    <MESSAGE value="My new commit day8 window tables" />
+    <MESSAGE value="My new commit day 9" />
+    <MESSAGE value="My new commit day10" />
+    <MESSAGE value="My new commit" />
+    <MESSAGE value="My new commit day11" />
+    <option name="LAST_COMMIT_MESSAGE" value="My new commit day11" />
+  </component>
+</project>
