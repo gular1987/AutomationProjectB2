@@ -1,0 +1,221 @@
+Index: src/test/java/com/loop/test/day3_locators_css_xpath/T1_locators_getText.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loop.test.day3_locators_css_xpath;\n\nimport com.loop.test.utilities.DocuportConstants;\nimport com.loop.test.utilities.WebDriverFactory;\nimport io.github.bonigarcia.wdm.WebDriverManager;\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\n\nimport java.util.List;\nimport java.util.Set;\n\npublic class T1_locators_getText {\n    public static void main(String[] args) {\n        WebDriver driver= WebDriverFactory.getDriver( \"chrome\" );\n        driver.manage().window().maximize();\n        driver.get( \"https://beta.docuport.app\" );\n\n        WebElement userName = driver.findElement(By.id(\"input-14\"));\n        userName.sendKeys( DocuportConstants.USERNAME_CLIENT);\n\n        WebElement loginButton = driver.findElement(By.className(\"v-btn__content\"));\n        loginButton.click();\n\n        WebElement errorMessageForEmptyPassword = driver.findElement(By.className(\"v-messages__message\"));\n        String actualErrorMessage = errorMessageForEmptyPassword.getText();\n\n        if(actualErrorMessage.equals(DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD)){\n            System.out.println(\"Expected error message: \" + DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD + \", matches actual error message: \" + actualErrorMessage + \". Test PASSED\");\n        } else {\n            System.out.println(\"Expected error message: \" + DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD + \", DOES NOT match actual error message: \" + actualErrorMessage);\n            System.err.println(\"TEST FAILED\");\n        }\n          \n\n    }\n}\n
+===================================================================
+diff --git a/src/test/java/com/loop/test/day3_locators_css_xpath/T1_locators_getText.java b/src/test/java/com/loop/test/day3_locators_css_xpath/T1_locators_getText.java
+--- a/src/test/java/com/loop/test/day3_locators_css_xpath/T1_locators_getText.java	
++++ b/src/test/java/com/loop/test/day3_locators_css_xpath/T1_locators_getText.java	
+@@ -1,6 +1,7 @@
+ package com.loop.test.day3_locators_css_xpath;
+ 
+-import com.loop.test.utilities.DocuportConstants;
++import com.loop.test.utilities.DocuportConstans;
++
+ import com.loop.test.utilities.WebDriverFactory;
+ import io.github.bonigarcia.wdm.WebDriverManager;
+ import org.openqa.selenium.By;
+@@ -17,7 +18,8 @@
+         driver.get( "https://beta.docuport.app" );
+ 
+         WebElement userName = driver.findElement(By.id("input-14"));
+-        userName.sendKeys( DocuportConstants.USERNAME_CLIENT);
++
++        userName.sendKeys(DocuportConstans.USERNAME_CLIENT);
+ 
+         WebElement loginButton = driver.findElement(By.className("v-btn__content"));
+         loginButton.click();
+@@ -25,10 +27,10 @@
+         WebElement errorMessageForEmptyPassword = driver.findElement(By.className("v-messages__message"));
+         String actualErrorMessage = errorMessageForEmptyPassword.getText();
+ 
+-        if(actualErrorMessage.equals(DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD)){
+-            System.out.println("Expected error message: " + DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD + ", matches actual error message: " + actualErrorMessage + ". Test PASSED");
++        if(actualErrorMessage.equals(DocuportConstans.ERROR_MESSAGE_FOR_EMPTY_PASSWORD)){
++            System.out.println("Expected error message: " + DocuportConstans.ERROR_MESSAGE_FOR_EMPTY_PASSWORD + ", matches actual error message: " + actualErrorMessage + ". Test PASSED");
+         } else {
+-            System.out.println("Expected error message: " + DocuportConstants.ERROR_MESSAGE_FOR_EMPTY_PASSWORD + ", DOES NOT match actual error message: " + actualErrorMessage);
++            System.out.println("Expected error message: " +DocuportConstans.ERROR_MESSAGE_FOR_EMPTY_PASSWORD + ", DOES NOT match actual error message: " + actualErrorMessage);
+             System.err.println("TEST FAILED");
+         }
+           
+Index: src/test/java/com/loop/test/day4_xpath_findelement/T000_xpath_getText.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loop.test.day4_xpath_findelement;\n\nimport com.loop.test.utilities.DocuportConstants;\nimport com.loop.test.utilities.WebDriverFactory;\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.StaleElementReferenceException;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\n\n     /**\n    1. Open Chrome browser\n    2. Go to docuport\n    3. Click on forgot password\n    4. validate URL contains: reset-password\n    5. validate - Enter the email address associated with your account\n    6. enter forgotpasswordg1@gmail.com to email box\n    7. validate cancel button is displayed\n    8. validate send button is displayed\n    9. click send button\n    10. validate - We've sent you an email with a link to reset your password. Please check your email\n     */\n\npublic class T000_xpath_getText {\n    public static void main(String[] args) throws InterruptedException {\n        WebDriver driver= WebDriverFactory.getDriver(\"chrome\");\n        driver.manage().window().maximize();\n        driver.get(\"https://beta.docuport.app\");\n        WebElement forgotPassword= driver.findElement(By.xpath(\"//a[@href='/reset-password']\"));\n        forgotPassword.click();\n        String actualURLResetPassword=driver.getCurrentUrl();\n        if (actualURLResetPassword.contains(DocuportConstants.RESET_PASSWORD_URL)){\n            System.out.println(\"TEST PASS: => Actual url: \\\" + actualUrlForResetPassword + \\\" contains expected url: \\\" \" +\n                    \"+ DocuportConstants.RESET_PASSWORD_URL\");\n        }else {\n            System.out.println(\"TEST FAIL: => Actual url: \" +actualURLResetPassword + \" does not contain expected url: \" + DocuportConstants.RESET_PASSWORD_URL);\n        }\n        WebElement validateMessage=driver.findElement(By.xpath(\"//div[@class='v-messages__message']\"));\n        String actualValidateMessage=validateMessage.getText();\n        if (actualValidateMessage.contains(DocuportConstants.RESET_PASSWORD_MESSAGE)){\n            System.out.println(\"TEST PASS: => Actual validate message: \\\"\"+actualValidateMessage+\"\\\" contains expected message \\\"\"+DocuportConstants.RESET_PASSWORD_MESSAGE);\n        }else {\n            System.out.println(\"TEST FAIL: => Actual validate message: \\\"\"+actualValidateMessage+\"\\\" doesnt contains expected message \\\"\"+DocuportConstants.RESET_PASSWORD_MESSAGE);\n\n        }\n        WebElement emailInputBox=driver.findElement(By.xpath(\"//input[contains(@id,'input')]\"));\n        emailInputBox.sendKeys(DocuportConstants.EMAIL_FOR_RESET_PASSWORD);\n\n        WebElement cancelButton= driver.findElement(By.xpath(\"//span[normalize-space() = 'Cancel']\"));\n        WebElement sendButton=driver.findElement(By.xpath(\"//span[normalize-space() = 'Send']\"));\n        if(cancelButton.isDisplayed()){\n            System.out.println(\"TEST PASS => Cancel button is displayed\");\n        } else {\n            System.err.println(\"TEST FAILED => Cancel button is NOT displayed\");\n        }\n        if(sendButton.isDisplayed()){\n            System.out.println(\"TEST PASS => Send button is displayed\");\n        } else {\n            System.err.println(\"TEST FAILED => Send button is NOT displayed\");\n        }\n        sendButton.click();\n        Thread.sleep(3000);\n        WebElement successMessage= driver.findElement(By.xpath(\"//span[@class='body-1']\"));\n\n        Thread.sleep(5000);\n      try {\n          System.out.println(successMessage.getText());\n      }catch (StaleElementReferenceException e){\n          System.out.println(\"Element is not there anymore\");\n          e.printStackTrace();\n      }\n\n\n        }\n        }\n\n\n
+===================================================================
+diff --git a/src/test/java/com/loop/test/day4_xpath_findelement/T000_xpath_getText.java b/src/test/java/com/loop/test/day4_xpath_findelement/T000_xpath_getText.java
+--- a/src/test/java/com/loop/test/day4_xpath_findelement/T000_xpath_getText.java	
++++ b/src/test/java/com/loop/test/day4_xpath_findelement/T000_xpath_getText.java	
+@@ -1,6 +1,6 @@
+ package com.loop.test.day4_xpath_findelement;
+ 
+-import com.loop.test.utilities.DocuportConstants;
++import com.loop.test.utilities.DocuportConstans;
+ import com.loop.test.utilities.WebDriverFactory;
+ import org.openqa.selenium.By;
+ import org.openqa.selenium.StaleElementReferenceException;
+@@ -28,22 +28,23 @@
+         WebElement forgotPassword= driver.findElement(By.xpath("//a[@href='/reset-password']"));
+         forgotPassword.click();
+         String actualURLResetPassword=driver.getCurrentUrl();
+-        if (actualURLResetPassword.contains(DocuportConstants.RESET_PASSWORD_URL)){
++        Object DocuportConstants;
++        if (actualURLResetPassword.contains(DocuportConstans.ACTUAL_URL_RESET_PASSWORD)){
+             System.out.println("TEST PASS: => Actual url: \" + actualUrlForResetPassword + \" contains expected url: \" " +
+                     "+ DocuportConstants.RESET_PASSWORD_URL");
+         }else {
+-            System.out.println("TEST FAIL: => Actual url: " +actualURLResetPassword + " does not contain expected url: " + DocuportConstants.RESET_PASSWORD_URL);
++            System.out.println("TEST FAIL: => Actual url: " +actualURLResetPassword + " does not contain expected url: " + DocuportConstans.EMAIL_FOR_RESET_PASSWORD);
+         }
+         WebElement validateMessage=driver.findElement(By.xpath("//div[@class='v-messages__message']"));
+         String actualValidateMessage=validateMessage.getText();
+-        if (actualValidateMessage.contains(DocuportConstants.RESET_PASSWORD_MESSAGE)){
+-            System.out.println("TEST PASS: => Actual validate message: \""+actualValidateMessage+"\" contains expected message \""+DocuportConstants.RESET_PASSWORD_MESSAGE);
++        if (actualValidateMessage.contains(DocuportConstans.EMAIL_FOR_RESET_PASSWORD)){
++            System.out.println("TEST PASS: => Actual validate message: \""+actualValidateMessage+"\" contains expected message \""+DocuportConstans.EMAIL_FOR_RESET_PASSWORD);
+         }else {
+-            System.out.println("TEST FAIL: => Actual validate message: \""+actualValidateMessage+"\" doesnt contains expected message \""+DocuportConstants.RESET_PASSWORD_MESSAGE);
++            System.out.println("TEST FAIL: => Actual validate message: \""+actualValidateMessage+"\" doesnt contains expected message \""+DocuportConstans.EMAIL_FOR_RESET_PASSWORD);
+ 
+         }
+         WebElement emailInputBox=driver.findElement(By.xpath("//input[contains(@id,'input')]"));
+-        emailInputBox.sendKeys(DocuportConstants.EMAIL_FOR_RESET_PASSWORD);
++        emailInputBox.sendKeys(DocuportConstans.EMAIL_FOR_RESET_PASSWORD);
+ 
+         WebElement cancelButton= driver.findElement(By.xpath("//span[normalize-space() = 'Cancel']"));
+         WebElement sendButton=driver.findElement(By.xpath("//span[normalize-space() = 'Send']"));
+@@ -66,7 +67,7 @@
+           System.out.println(successMessage.getText());
+       }catch (StaleElementReferenceException e){
+           System.out.println("Element is not there anymore");
+-          e.printStackTrace();
++
+       }
+ 
+ 
+Index: src/test/java/com/loop/test/day3_locators_css_xpath/T3_getAttribute_css.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loop.test.day3_locators_css_xpath;\n\nimport com.loop.test.utilities.DocuportConstants;\nimport com.loop.test.utilities.WebDriverFactory;\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\n\npublic class T3_getAttribute_css {\n    public static void main(String[] args) {\n        /*\n         * go to docuport application\n         * identify docuport with css\n         * get value of the attribute\n         * Validate if  it is \"Docuport\"\n         */\n\n        // go to url\n        WebDriver driver = WebDriverFactory.getDriver(\"chrome\");\n        driver.manage().window().maximize();\n        driver.get(\"https://beta.docuport.app\");\n\n        // identify logo with css\n        WebElement logo = driver.findElement( By.cssSelector(\"img[src='/img/logo.d7557277.svg']\"));\n        String docuport = logo.getAttribute(\"alt\");\n\n        if (DocuportConstants.LOGO_DOCUPORT.equalsIgnoreCase(docuport)){\n            System.out.println(\"Expected logo text: \" + DocuportConstants.LOGO_DOCUPORT + \", matches actual logo text: \"  + docuport);\n        } else {\n            System.out.println( \"Expected logo text: \" + DocuportConstants.LOGO_DOCUPORT + \", DOES NOT MATCH actual logo text: \" + docuport );\n        }\n    }\n}\n\n        // locate username with css\n\n        // locate password with css\n\n        // locate login with css\n\n        // login to docuport\n\n        // locate home icon of docuport after login\n\n        // validate that you logged in\n
+===================================================================
+diff --git a/src/test/java/com/loop/test/day3_locators_css_xpath/T3_getAttribute_css.java b/src/test/java/com/loop/test/day3_locators_css_xpath/T3_getAttribute_css.java
+--- a/src/test/java/com/loop/test/day3_locators_css_xpath/T3_getAttribute_css.java	
++++ b/src/test/java/com/loop/test/day3_locators_css_xpath/T3_getAttribute_css.java	
+@@ -1,6 +1,7 @@
+ package com.loop.test.day3_locators_css_xpath;
+ 
+-import com.loop.test.utilities.DocuportConstants;
++import com.loop.test.utilities.DocuportConstans;
++
+ import com.loop.test.utilities.WebDriverFactory;
+ import org.openqa.selenium.By;
+ import org.openqa.selenium.WebDriver;
+@@ -24,10 +25,10 @@
+         WebElement logo = driver.findElement( By.cssSelector("img[src='/img/logo.d7557277.svg']"));
+         String docuport = logo.getAttribute("alt");
+ 
+-        if (DocuportConstants.LOGO_DOCUPORT.equalsIgnoreCase(docuport)){
+-            System.out.println("Expected logo text: " + DocuportConstants.LOGO_DOCUPORT + ", matches actual logo text: "  + docuport);
++        if (DocuportConstans.LOGO_DOCUPORT.equalsIgnoreCase(docuport)){
++            System.out.println("Expected logo text: " +DocuportConstans.LOGO_DOCUPORT + ", matches actual logo text: "  + docuport);
+         } else {
+-            System.out.println( "Expected logo text: " + DocuportConstants.LOGO_DOCUPORT + ", DOES NOT MATCH actual logo text: " + docuport );
++            System.out.println( "Expected logo text: " +DocuportConstans.LOGO_DOCUPORT + ", DOES NOT MATCH actual logo text: " + docuport );
+         }
+     }
+ }
+Index: src/test/java/HomeTask/Day3/Task1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package HomeTask.Day3;\n\nimport com.loop.test.utilities.DocuportConstants;\nimport com.loop.test.utilities.WebDriverFactory;\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\n\n/**\n * 1. login to docuport application\n * 2. logout from docuport application\n * 3. Validate successful login\n * 4. Validate successful logout\n */\n\npublic class Task1 {\n    public static void main(String[] args) throws InterruptedException {\n\n        WebDriver driver = WebDriverFactory.getDriver(\"chrome\");\n        driver.get(\"https://beta.docuport.app\");\n        WebElement username=driver.findElement(By.id(\"input-14\"));\n        username.sendKeys(DocuportConstants.USERNAME_CLIENT);\n        username.click();\n\n        WebElement password= driver.findElement(By.id(\"input-15\"));\n        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);\n        password.click();\n\n        WebElement loginButton=driver.findElement(By.className(\"v-btn__content\"));\n        loginButton.click();\n        Thread.sleep(2000);\n       WebElement continueButton= driver.findElement(By.cssSelector(\"button[type='submit']\"));\n        continueButton.click();\n\n\n        WebElement clickButton= driver.findElement(By.cssSelector(\"span[class='subtitle-2 text-none pl-2 pr-3 gray--text text--darken-3']\"));\n        clickButton.click();\n\n\n        WebElement logOutButton= driver.findElement(By.id(\"list-item-153\"));\n        logOutButton.click();\n        if (logOutButton.isDisplayed()){\n            System.out.println(\"Log out button is Displayed.Test PASSED\");\n        }else {\n            System.out.println(\"Log out button is not Displayed.Test FAILED\");\n        }\n\n        Thread.sleep(3000);\n\n        driver.quit();\n\n\n\n\n\n    }\n}
+===================================================================
+diff --git a/src/test/java/HomeTask/Day3/Task1.java b/src/test/java/HomeTask/Day3/Task1.java
+--- a/src/test/java/HomeTask/Day3/Task1.java	
++++ b/src/test/java/HomeTask/Day3/Task1.java	
+@@ -1,6 +1,7 @@
+ package HomeTask.Day3;
+ 
+-import com.loop.test.utilities.DocuportConstants;
++import com.loop.test.utilities.DocuportConstans;
++
+ import com.loop.test.utilities.WebDriverFactory;
+ import org.openqa.selenium.By;
+ import org.openqa.selenium.WebDriver;
+@@ -19,11 +20,11 @@
+         WebDriver driver = WebDriverFactory.getDriver("chrome");
+         driver.get("https://beta.docuport.app");
+         WebElement username=driver.findElement(By.id("input-14"));
+-        username.sendKeys(DocuportConstants.USERNAME_CLIENT);
++        username.sendKeys(DocuportConstans.USERNAME_CLIENT);
+         username.click();
+ 
+         WebElement password= driver.findElement(By.id("input-15"));
+-        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);
++        password.sendKeys(DocuportConstans.USERNAME_CLIENT);
+         password.click();
+ 
+         WebElement loginButton=driver.findElement(By.className("v-btn__content"));
+Index: src/test/java/HomeTask/Day4/Task0.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package HomeTask.Day4;\n\nimport com.loop.test.utilities.DocuportConstants;\nimport com.loop.test.utilities.WebDriverFactory;\nimport org.checkerframework.checker.units.qual.A;\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.ScreenOrientation;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\n\nimport java.util.ArrayList;\nimport java.util.Arrays;\nimport java.util.List;\n\n/**\n * =============\n * 1. go to docuport app\n * 2. validate that Home, Received docs, My uploads, Invitations are displayed\n * 3. press three lines\n * 4. Home, Received docs, My uploads, Invitations will disappear\n * 5. Validate the buttons are not displayed\n */\n\npublic class Task0 {\n    public static void main(String[] args) throws InterruptedException {\n        WebDriver driver = WebDriverFactory.getDriver(\"chrome\");\n        driver.manage().window().maximize();\n        driver.get(\"https://beta.docuport.app\");\n        WebElement username = driver.findElement(By.id(\"input-14\"));\n        username.sendKeys(DocuportConstants.USERNAME_CLIENT);\n        username.click();\n\n        WebElement password = driver.findElement(By.id(\"input-15\"));\n        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);\n        password.click();\n\n        WebElement loginButton = driver.findElement(By.className(\"v-btn__content\"));\n        loginButton.click();\n        Thread.sleep(2000);\n        WebElement continueButton = driver.findElement(By.cssSelector(\"button[type='submit']\"));\n        continueButton.click();\n\n\n        WebElement home = driver.findElement(By.xpath(\"//span[text()='Home']\"));\n        System.out.println(\"TEST PASSED ===> Home is Displayed\");\n\n        WebElement receivedDoc = driver.findElement(By.xpath(\"//span[text()='Received docs']\"));\n        System.out.println(\"TEST PASSED ===> Receive Document is Displayed\");\n\n\n        WebElement myUploads = driver.findElement(By.xpath(\"//span[text()='My uploads']\"));\n        System.out.println(\"TEST PASSED ===> My Uploads is Displayed\");\n\n\n        WebElement invitations = driver.findElement(By.xpath(\"//span[text()='Invitations']\"));\n        System.out.println(\"TEST PASSED ===> Invitations is Displayed\");\n\n        WebElement threeLine = driver.findElement(By.xpath(\"//button[@class='v-app-bar__nav-icon v-btn v-btn--icon v-btn--round theme--light v-size--default']\"));\n        threeLine.click();\n        Thread.sleep(3000);\n        System.out.println(\"===========================================\");\n\n        List<WebElement> webElement=Arrays.asList(home,receivedDoc,myUploads,invitations);\n        for (WebElement each:webElement) {\n            if (each.isDisplayed()) {\n                System.out.println(\"TEST PASSED ===> Web Element \\\"\" + each.getText() + \"\\\" is Not Displayed\");\n            } else {\n                System.out.println(\"TEST FAILED ===> Web Element \\\"\" + each.getText() + \"\\\" is not  Displayed\");\n\n            }\n        }\n\n        }\n    }\n
+===================================================================
+diff --git a/src/test/java/HomeTask/Day4/Task0.java b/src/test/java/HomeTask/Day4/Task0.java
+--- a/src/test/java/HomeTask/Day4/Task0.java	
++++ b/src/test/java/HomeTask/Day4/Task0.java	
+@@ -1,6 +1,7 @@
+ package HomeTask.Day4;
+ 
+-import com.loop.test.utilities.DocuportConstants;
++
++import com.loop.test.utilities.DocuportConstans;
+ import com.loop.test.utilities.WebDriverFactory;
+ import org.checkerframework.checker.units.qual.A;
+ import org.openqa.selenium.By;
+@@ -27,11 +28,12 @@
+         driver.manage().window().maximize();
+         driver.get("https://beta.docuport.app");
+         WebElement username = driver.findElement(By.id("input-14"));
+-        username.sendKeys(DocuportConstants.USERNAME_CLIENT);
++
++        username.sendKeys(DocuportConstans.USERNAME_CLIENT);
+         username.click();
+ 
+         WebElement password = driver.findElement(By.id("input-15"));
+-        password.sendKeys(DocuportConstants.PASSWORD_CLIENT);
++        password.sendKeys(DocuportConstans.USERNAME_CLIENT);
+         password.click();
+ 
+         WebElement loginButton = driver.findElement(By.className("v-btn__content"));
+Index: src/test/java/HomeTask/Day4/Task2.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package HomeTask.Day4;\n\nimport com.loop.test.utilities.DocuportConstants;\nimport com.loop.test.utilities.WebDriverFactory;\nimport org.openqa.selenium.By;\nimport org.openqa.selenium.WebDriver;\nimport org.openqa.selenium.WebElement;\n\nimport java.util.Arrays;\nimport java.util.List;\n\npublic class Task2 {\n    public static void main(String[] args) throws InterruptedException {\n\n        WebDriver driver = WebDriverFactory.getDriver(\"chrome\");\n        driver.manage().window().maximize();\n        driver.get(\"https://beta.docuport.app\");\n        WebElement username = driver.findElement(By.id(\"input-14\"));\n        username.sendKeys(DocuportConstants.USERNAME_ADVISOR);\n        username.click();\n\n        WebElement password = driver.findElement(By.id(\"input-15\"));\n        password.sendKeys(DocuportConstants.PASSWORD_ADVISOR);\n        password.click();\n\n        WebElement loginButton = driver.findElement(By.className(\"v-btn__content\"));\n        loginButton.click();\n        Thread.sleep(2000);\n        WebElement continueButton = driver.findElement(By.cssSelector(\"button[type='submit']\"));\n        continueButton.click();\n\n        WebElement home = driver.findElement(By.xpath(\"//span[text()='Home']\"));\n        WebElement receivedDoc = driver.findElement(By.xpath(\"//span[text()='Received docs']\"));\n        WebElement myUploads = driver.findElement(By.xpath(\"//span[text()='My uploads']\"));\n        WebElement clients = driver.findElement(By.xpath(\"//span[text()='Clients'\"));\n        WebElement invitations = driver.findElement(By.xpath(\"//span[text()='Invitations']\"));\n        WebElement users = driver.findElement(By.xpath(\"//span[text()='Users'\"));\n        WebElement Leads = driver.findElement(By.xpath(\"//span[text()='Leads'\"));\n        WebElement bookKeeping = driver.findElement(By.xpath(\"//span[text()='Bookkeeping'\"));\n        WebElement Form1099 = driver.findElement(By.xpath(\"//span[text()='1099 Form'\"));\n        WebElement Reconciliation = driver.findElement(By.xpath(\"//span[text()='Reconciliations'\"));\n\n        List<String> expectedURL = Arrays.asList(\"https://https://beta.docuport.app/\", \"https://https://beta.docuport.app/received-docs\",\n                \"https://https://beta.docuport.app/my-uploads\", \"https://https://beta.docuport.app/clients\",\n                \"https://https://beta.docuport.app/invitations\", \"https://beta.docuport.app/users\", \"https://beta.docuport.app/leads\",\n                \"https://beta.docuport.app/bookkeeping\", \"https://beta.docuport.app/1099-form\", \"https://beta.docuport.app/reconciliations\");\n        System.out.println(expectedURL);\n            }\n\n        }\n\n\n
+===================================================================
+diff --git a/src/test/java/HomeTask/Day4/Task2.java b/src/test/java/HomeTask/Day4/Task2.java
+--- a/src/test/java/HomeTask/Day4/Task2.java	
++++ b/src/test/java/HomeTask/Day4/Task2.java	
+@@ -1,6 +1,7 @@
+ package HomeTask.Day4;
+ 
+-import com.loop.test.utilities.DocuportConstants;
++import com.loop.test.utilities.DocuportConstans;
++
+ import com.loop.test.utilities.WebDriverFactory;
+ import org.openqa.selenium.By;
+ import org.openqa.selenium.WebDriver;
+@@ -16,11 +17,11 @@
+         driver.manage().window().maximize();
+         driver.get("https://beta.docuport.app");
+         WebElement username = driver.findElement(By.id("input-14"));
+-        username.sendKeys(DocuportConstants.USERNAME_ADVISOR);
++        username.sendKeys(DocuportConstans.USERNAME_ADVISOR);
+         username.click();
+ 
+         WebElement password = driver.findElement(By.id("input-15"));
+-        password.sendKeys(DocuportConstants.PASSWORD_ADVISOR);
++        password.sendKeys(DocuportConstans.PASSWORD_ADVISOR);
+         password.click();
+ 
+         WebElement loginButton = driver.findElement(By.className("v-btn__content"));

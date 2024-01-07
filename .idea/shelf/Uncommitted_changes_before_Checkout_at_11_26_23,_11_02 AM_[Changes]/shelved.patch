@@ -1,0 +1,18 @@
+Index: src/test/java/com/loop/test/utilities/DocuportConstants.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.loop.test.utilities;\n\npublic class DocuportConstants {\n        public static final String USERNAME_CLIENT = \"b1g1_client@gmail.com\";\n\n        public static final String ERROR_MESSAGE_FOR_EMPTY_PASSWORD = \"Please enter your password\";\n\n\n         public static final String LOGO_DOCUPORT = \"Docuport\";\n\n    }\n\n
+===================================================================
+diff --git a/src/test/java/com/loop/test/utilities/DocuportConstants.java b/src/test/java/com/loop/test/utilities/DocuportConstants.java
+--- a/src/test/java/com/loop/test/utilities/DocuportConstants.java	
++++ b/src/test/java/com/loop/test/utilities/DocuportConstants.java	
+@@ -7,6 +7,9 @@
+ 
+ 
+          public static final String LOGO_DOCUPORT = "Docuport";
++         public static final String PASSWORD_CLIENT="Group1";
++
++
+ 
+     }
+ 
