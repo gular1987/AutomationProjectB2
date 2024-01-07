@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4700e8f0-f2b1-414a-8f2b-78b35703de55" name="Changes" comment="My new commit day11">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/BrowserUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/ConfigurationReader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/DocuportConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/DocuportUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/DocuportWebTableUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/LoopCampConstants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/PizzaOrderWebTableUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/loop/test/utilities/WebDriverFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomeTask/Day07/Task2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomeTask/Day07/Task2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HomeTask/Day11/Task1_login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HomeTask/Day11/Task1_login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/home_task_pages/SmartBearSoftwareLoadingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/home_task_pages/SmartBearSoftwareLoadingPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/test/base/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/test/base/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/test/utilities/ConfigurationReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/test/utilities/ConfigurationReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/loop/test/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/loop/test/utilities/Driver.class" afterDir="false" />
-    </list>
+    <list default="true" id="4700e8f0-f2b1-414a-8f2b-78b35703de55" name="Changes" comment="My new commit all changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,127 +62,127 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.T000_xpath_getText.executor": "Run",
-    "Application.T0_test_config.executor": "Run",
-    "Application.T1_locators_getText.executor": "Run",
-    "Application.T3_getAttribute_css.executor": "Run",
-    "Application.Task0.executor": "Run",
-    "Application.Task1.executor": "Run",
-    "Application.Task2.executor": "Run",
-    "JUnit.T1_google_search.docuport_search.executor": "Run",
-    "JUnit.T1_google_search.executor": "Run",
-    "JUnit.T1_google_search.google_search.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "TestNG.MentorPractice.executor": "Run",
-    "TestNG.MentorPractice.invalidUsernameCorrectPassword.executor": "Run",
-    "TestNG.T000_singleton_practice.executor": "Run",
-    "TestNG.T00_login_docuport.executor": "Run",
-    "TestNG.T00_login_docuport.test_login_docuport.executor": "Run",
-    "TestNG.T0_iframe_practice.bottom.executor": "Run",
-    "TestNG.T0_iframe_practice.executor": "Run",
-    "TestNG.T0_iframe_practice.left.executor": "Run",
-    "TestNG.T0_iframe_practice.middle.executor": "Run",
-    "TestNG.T0_iframe_practice.right.executor": "Run",
-    "TestNG.T1_alerts.confirmationAlert.executor": "Run",
-    "TestNG.T1_alerts.executor": "Run",
-    "TestNG.T1_alerts.informationAlert.executor": "Run",
-    "TestNG.T1_drag_drop_pom.executor": "Run",
-    "TestNG.T1_upload.executor": "Run",
-    "TestNG.T1_upload.upload_file.executor": "Run",
-    "TestNG.T1_webTables.executor": "Run",
-    "TestNG.T1_webTables.test_webTables.executor": "Run",
-    "TestNG.T1_window.executor": "Run",
-    "TestNG.T1_window.test_window_handle.executor": "Debug",
-    "TestNG.T2_actions_howerover.google_action_hover.executor": "Run",
-    "TestNG.T2_explicit_wait.executor": "Run",
-    "TestNG.T2_iframe.executor": "Run",
-    "TestNG.T2_java_faker.executor": "Run",
-    "TestNG.T2_windows.windowHandleTest.executor": "Run",
-    "TestNG.T3_drag_drop.drag_drop_test (1).executor": "Run",
-    "TestNG.T3_drag_drop.drag_drop_test (2).executor": "Run",
-    "TestNG.T3_drag_drop.drag_drop_test (3).executor": "Run",
-    "TestNG.T3_drag_drop.drag_drop_test.executor": "Run",
-    "TestNG.T3_drag_drop.executor": "Run",
-    "TestNG.T3_dynamic_loading1 (1).executor": "Run",
-    "TestNG.T3_dynamic_loading1.dynamic_loading_1.executor": "Run",
-    "TestNG.T3_dynamic_loading1.executor": "Run",
-    "TestNG.T4_JSExecutor_scroll.etsy_scroll_test.executor": "Run",
-    "TestNG.T4_dropdown_options.executor": "Run",
-    "TestNG.T5_multi_dropdown.multiSelect.executor": "Run",
-    "TestNG.Task1 (1).executor": "Run",
-    "TestNG.Task1 (2).executor": "Run",
-    "TestNG.Task1 (3).executor": "Run",
-    "TestNG.Task1 (4).executor": "Run",
-    "TestNG.Task1.drag_And_drop.executor": "Run",
-    "TestNG.Task1.dropDownSelect.executor": "Run",
-    "TestNG.Task1.dropdownSelectOption2.executor": "Run",
-    "TestNG.Task1.executor": "Run",
-    "TestNG.Task1_login (1).executor": "Run",
-    "TestNG.Task1_login (2).executor": "Run",
-    "TestNG.Task1_login.executor": "Run",
-    "TestNG.Task1_login.login_page.executor": "Run",
-    "TestNG.Task2 (1).executor": "Run",
-    "TestNG.Task2 (2).executor": "Run",
-    "TestNG.Task2 (3).executor": "Run",
-    "TestNG.Task2 (4).executor": "Run",
-    "TestNG.Task2 (5).executor": "Run",
-    "TestNG.Task2.drag_And_drop.executor": "Run",
-    "TestNG.Task2.executor": "Run",
-    "TestNG.Task2.multipleWindow.executor": "Run",
-    "TestNG.Task2.searchButton.executor": "Run",
-    "TestNG.Task2_dragAndDrop (1).executor": "Run",
-    "TestNG.Task2_dragAndDrop (2).executor": "Run",
-    "TestNG.Task2_dragAndDrop (3).executor": "Run",
-    "TestNG.Task2_dragAndDrop.NowDrop.executor": "Run",
-    "TestNG.Task2_dragAndDrop.dragAndDrop.executor": "Run",
-    "TestNG.Task2_dragAndDrop.executor": "Run",
-    "TestNG.Task2_dragAndDrop.try_again_test.executor": "Run",
-    "TestNG.Task3 (1).executor": "Run",
-    "TestNG.Task3 (2).executor": "Run",
-    "TestNG.Task3.executor": "Run",
-    "TestNG.Task3.getDocuport (1).executor": "Run",
-    "TestNG.Task3.getDocuport.executor": "Run",
-    "TestNG.Task3.validateDocuport (1).executor": "Run",
-    "TestNG.Task3.validateDocuport (2).executor": "Run",
-    "TestNG.Task3.validateDocuport (3).executor": "Run",
-    "TestNG.Task3.validateDocuport (4).executor": "Run",
-    "TestNG.Task3.validateDocuport (5).executor": "Run",
-    "TestNG.Task3.validateDocuport.executor": "Run",
-    "TestNG.Task_RegistrationForm.RegistrationForm (1).executor": "Run",
-    "TestNG.Task_RegistrationForm.RegistrationForm (2).executor": "Run",
-    "TestNG.Task_RegistrationForm.RegistrationForm (3).executor": "Run",
-    "TestNG.Task_RegistrationForm.RegistrationForm (4).executor": "Run",
-    "TestNG.Task_RegistrationForm.RegistrationForm.executor": "Run",
-    "TestNG.Task_RegistrationForm.executor": "Run",
-    "TestNG.task1 (1).executor": "Run",
-    "TestNG.task1 (2).executor": "Run",
-    "TestNG.task1.SmartBearWebOrders.executor": "Run",
-    "TestNG.task1.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develope",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/agil/Desktop/IdeaProjects/untitled/AutomationProjectB2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.T000_xpath_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T0_test_config.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T1_locators_getText.executor&quot;: &quot;Run&quot;,
+    &quot;Application.T3_getAttribute_css.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task0.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.T1_google_search.docuport_search.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.T1_google_search.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.T1_google_search.google_search.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;TestNG.MentorPractice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MentorPractice.invalidUsernameCorrectPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T000_singleton_practice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T00_login_docuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T00_login_docuport.test_login_docuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.bottom.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.left.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.middle.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T0_iframe_practice.right.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.confirmationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_alerts.informationAlert.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_drag_drop_pom.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_upload.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_upload.upload_file.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_webTables.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_webTables.test_webTables.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_window.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T1_window.test_window_handle.executor&quot;: &quot;Debug&quot;,
+    &quot;TestNG.T2_actions_howerover.google_action_hover.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_explicit_wait.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_iframe.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_java_faker.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T2_windows.windowHandleTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.drag_drop_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_drag_drop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_dynamic_loading1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_dynamic_loading1.dynamic_loading_1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T3_dynamic_loading1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_JSExecutor_scroll.etsy_scroll_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T4_dropdown_options.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.T5_multi_dropdown.multiSelect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1 (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.drag_And_drop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.dropDownSelect.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.dropdownSelectOption2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task1_login.login_page.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2 (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.drag_And_drop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.multipleWindow.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2.searchButton.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.NowDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.dragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task2_dragAndDrop.try_again_test.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.getDocuport (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.getDocuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport (5).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task3.validateDocuport.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (3).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm (4).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.RegistrationForm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Task_RegistrationForm.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.task1 (1).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.task1 (2).executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.task1.SmartBearWebOrders.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.task1.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develope&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/agil/Desktop/IdeaProjects/untitled/AutomationProjectB2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "module"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DocuportConstants" />
@@ -426,6 +405,7 @@
       <workItem from="1704416062994" duration="141000" />
       <workItem from="1704416248904" duration="1390000" />
       <workItem from="1704604614718" duration="10450000" />
+      <workItem from="1704616401179" duration="706000" />
     </task>
     <task id="LOCAL-00001" summary="My first commit">
       <created>1700405318165</created>
@@ -566,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704408918567</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="My new commit all changes">
+      <option name="closed" value="true" />
+      <created>1704637940543</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704637940543</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,6 +583,7 @@
     <MESSAGE value="My new commit day10" />
     <MESSAGE value="My new commit" />
     <MESSAGE value="My new commit day11" />
-    <option name="LAST_COMMIT_MESSAGE" value="My new commit day11" />
+    <MESSAGE value="My new commit all changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="My new commit all changes" />
   </component>
 </project>
